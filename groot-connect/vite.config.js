@@ -10,8 +10,8 @@ export default defineConfig({
     federation({
       name: "grootConnect",
       remotes: {
-        grootChat: "http://localhost:3001/assets/remoteEntry.js",
-        grootMail: "http://localhost:3002/assets/remoteEntry.js",
+        grootChat: "https://groot-chat.vercel.app/assets/remoteEntry.js",
+        grootMail: "https://groot-mail.vercel.app/assets/remoteEntry.js",
       },
       exposes: {
         "./Button": "./src/components/Button.jsx",
