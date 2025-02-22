@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "postinstall": "cd groot-connect && npm install && cd ../groot-chat && npm install && cd ../groot-mail && npm install",
     "start": "npm run dev",
     "dev": "vite",
     "build": "vite build",
