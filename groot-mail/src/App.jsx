@@ -9,9 +9,13 @@ function App() {
         Groot Mail Application
       </h1>
       <p className="mt-2">This is the mail micro-frontend.</p>
-      <Button onClick={() => alert("Button clicked by Chat App")}>
-        Chat Button
-      </Button>
+      <div className='w-full flex justify-center '>
+        <div className='w-44'>
+          <Button onClick={() => alert("Button clicked by Chat App")}>
+            Chat Button
+          </Button>
+        </div>
+      </div>
     </>
   )
 }
