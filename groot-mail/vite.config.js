@@ -13,6 +13,9 @@ export default defineConfig({
       exposes: {
         "./MailApp": "./src/App.jsx",
       },
+      remotes: {
+        grootConnect: "https://groot-connect.vercel.app//assets/remoteEntry.js", // Add grootConnect as a remote
+      },
       shared: ["react", "react-dom"],
     }),
   ],

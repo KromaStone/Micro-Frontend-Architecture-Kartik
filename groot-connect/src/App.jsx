@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css'
 import { Suspense } from 'react';
-
+import Button from './components/Button'
 function App() {
   const ChatApp = React.lazy(() => import("grootChat/ChatApp"));
   const MailApp = React.lazy(() => import("grootMail/MailApp"));
@@ -25,6 +25,11 @@ function App() {
               <MailApp />
             </div>
           </Suspense>
+        </div>
+        <div className='w-44'>
+          <Button onClick={() => alert("Button clicked in mail app")}>
+            Connect Button
+          </Button>
         </div>
       </div>
     </>
