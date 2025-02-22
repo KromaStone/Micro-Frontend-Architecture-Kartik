@@ -3,8 +3,8 @@ import './App.css'
 import { Suspense } from 'react';
 
 function App() {
-  const ChatApp = React.lazy(() => import("../../groot-chat/src/App"));
-  const MailApp = React.lazy(() => import("../../groot-mail/src/App"));
+  const ChatApp = React.lazy(() => import("grootChat/ChatApp"));
+  const MailApp = React.lazy(() => import("grootMail/MailApp"));
 
   return (
     <>
