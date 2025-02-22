@@ -27,7 +27,7 @@ function App() {
           </Suspense>
         </div>
         <div className='w-44'>
-          <Button onClick={() => alert("Button clicked in mail app")}>
+          <Button onClick={() => alert("Connect App Clicked")}>
             Connect Button
           </Button>
         </div>

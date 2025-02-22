@@ -11,12 +11,11 @@ function App() {
       <p className="mt-2">This is the chat micro-frontend.</p>
       <div className='w-full flex justify-center '>
         <div className='w-44'>
-          <Button onClick={() => alert("Button clicked by Chat App")}>
+          <Button onClick={() => alert("Chat App Clicked")}>
             Chat Button
           </Button>
         </div>
       </div>
-
     </>
   )
 }
